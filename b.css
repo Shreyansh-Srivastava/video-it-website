@@ -1,0 +1,76 @@
+video {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  
+  html, body {
+    height: 100%;
+  }
+
+  body {
+    margin: 0;
+  }
+  
+  .viewport-header {
+    position: relative;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #text button { 
+    display: block;
+    width: 40%;
+    padding: .4rem;
+    border: none; 
+    margin: 1rem auto; 
+    font-size: 1.3rem;
+    background: rgba(255,255,255,0.23);
+    color: #fff;
+    border-radius: 3px; 
+    cursor: pointer;
+    transition: .3s background;
+  }
+  #text button:hover { 
+    background: rgba(0,0,0,0.25);
+ }
+  h1 {
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 3vw;
+    line-height: 1.2;
+    font-size: 3vw;
+    text-align: center;
+  }
+  span {
+    display: block;
+    font-size: 10vw;
+    letter-spacing: -1.3vw;
+  }
+  main {
+    color: white;
+    position: relative;
+    padding: 1rem;
+    
+  }
+  p {
+    max-width: 600px;
+    margin: 1rem auto;
+  }
+
+  h3{
+    text-align: center;
+    background-color: rgb(15, 143, 255);
+  }
+  #text {
+    background: rgb(0, 0, 0);
+  }
+
+  @media screen and (max-width: 500px) { 
+    div{width:70%;} 
+  }
